@@ -1,0 +1,10 @@
+button {
+    transition: all 0.3s ease;  /* 设置平滑过渡 */
+  }
+  
+  button:hover {
+    background-color: #0056b3;   /* 鼠标悬停时改变背景色 */
+    transform: scale(1.15);         /* 鼠标悬停时按钮放大 */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);  /* 增加阴影效果 */
+  }
+  
